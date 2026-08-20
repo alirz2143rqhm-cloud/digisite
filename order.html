@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سفارش سایت | DigiSite</title>
+<meta name="description" content="فرم سفارش ساخت وب‌سایت دیجی‌سایت — پروژه‌ی خود را ثبت کنید تا در سریع‌ترین زمان بررسی و با شما تماس بگیریم.">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">DS</span><span>DigiSite<small>دیجی‌سایت</small></span></a>
+    <nav class="nav-links">
+      <a href="index.html">خانه</a>
+      <a href="services.html">خدمات</a>
+      <a href="portfolio.html">نمونه‌کارها</a>
+      <a href="about.html">درباره ما</a>
+      <a href="testimonials.html">رضایت مشتریان</a>
+      <a href="contact.html">تماس</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="order.html" class="btn btn-primary nav-order-btn active">سفارش سایت</a>
+      <button class="hamburger" aria-label="منو"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html">خانه</a>
+  <a href="services.html">خدمات</a>
+  <a href="portfolio.html">نمونه‌کارها</a>
+  <a href="about.html">درباره ما</a>
+  <a href="testimonials.html">رضایت مشتریان</a>
+  <a href="contact.html">تماس</a>
+  <a href="order.html" class="btn btn-primary btn-block">سفارش سایت</a>
+</div>
+
+<section class="page-hero" style="padding-bottom:20px;">
+  <div class="container order-hero">
+    <div class="eyebrow center">سفارش پروژه</div>
+    <h1 class="reveal in">پروژه‌ی خود را با DigiSite شروع کنید</h1>
+    <p class="reveal in">فرم زیر را با دقت پر کنید؛ تیم ما در سریع‌ترین زمان ممکن پروژه‌ی شما را بررسی و با شما تماس می‌گیرد.</p>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="card reveal-scale" style="max-width:800px; margin:0 auto; padding:36px;">
+      <div class="form-price-note">💬 قیمت پس از بررسی پروژه تعیین می‌شود.</div>
+
+      <form id="order-form" class="form-grid">
+        <div class="field"><label>نام و نام خانوادگی</label><input type="text" name="name" required></div>
+        <div class="field"><label>شماره تماس</label><input type="tel" name="phone" required></div>
+
+        <div class="field"><label>نوع سایت</label>
+          <select name="type" required>
+            <option value="">انتخاب کنید</option>
+            <option>فروشگاهی</option>
+            <option>شرکتی</option>
+            <option>شخصی</option>
+            <option>خدماتی</option>
+            <option>خبری</option>
+            <option>آموزشی</option>
+            <option>گیمینگ</option>
+            <option>لندینگ</option>
+            <option>اختصاصی</option>
+            <option>سایر</option>
+          </select>
+        </div>
+        <div class="field"><label>زمان موردنظر تحویل</label>
+          <select name="timeline">
+            <option>هرچه زودتر</option>
+            <option>۲ تا ۴ هفته</option>
+            <option>۱ تا ۲ ماه</option>
+            <option>زمان مشخصی ندارم</option>
+          </select>
+        </div>
+
+        <div class="field full"><label>بودجه‌ی تقریبی (اختیاری)</label><input type="text" name="budget" placeholder="مثلاً: بین ۵ تا ۱۰ میلیون تومان"></div>
+        <div class="field full"><label>لینک نمونه یا سایت مشابه (اختیاری)</label><input type="text" name="reference" placeholder="https://"></div>
+
+        <div class="field full"><label>امکانات موردنیاز (اختیاری)</label>
+          <textarea name="features" placeholder="مثلاً: درگاه پرداخت، پنل مدیریت، چت آنلاین..."></textarea>
+        </div>
+        <div class="field full"><label>توضیحات پروژه</label>
+          <textarea name="description" required placeholder="کمی درباره‌ی کسب‌وکار و هدف سایت خود بنویسید..."></textarea>
+        </div>
+
+        <div class="field full">
+          <button type="submit" class="btn btn-primary btn-lg btn-block">ثبت درخواست</button>
+          <p class="field-note" style="text-align:center; margin-top:10px;">با ثبت درخواست، خلاصه‌ی سفارش برای ارسال در تلگرام آماده می‌شود.</p>
+        </div>
+      </form>
+
+      <div class="form-success" id="form-success">
+        ✅ درخواست شما ثبت شد. اکنون می‌توانید آن را برای ما در تلگرام ارسال کنید.
+      </div>
+      <a href="#" id="send-telegram" target="_blank" class="btn btn-tg btn-block" style="display:none; margin-top:14px;">ارسال خلاصه‌ی سفارش در تلگرام</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><span class="brand-mark">DS</span><span>DigiSite<small>دیجی‌سایت</small></span></a>
+        <p>طراحی و ساخت وب‌سایت حرفه‌ای برای هر نوع کسب‌وکار؛ از ایده تا اجرا.</p>
+      </div>
+      <div class="footer-col">
+        <h5>خدمات</h5>
+        <a href="services.html">فروشگاه اینترنتی</a>
+        <a href="services.html">سایت شرکتی</a>
+        <a href="services.html">لندینگ پیج</a>
+        <a href="services.html">سایت اختصاصی</a>
+      </div>
+      <div class="footer-col">
+        <h5>صفحات</h5>
+        <a href="portfolio.html">نمونه‌کارها</a>
+        <a href="about.html">درباره ما</a>
+        <a href="testimonials.html">رضایت مشتریان</a>
+        <a href="order.html">سفارش سایت</a>
+      </div>
+      <div class="footer-col">
+        <h5>تماس با ما</h5>
+        <span data-phone-display>0938 303 1035</span>
+        <a href="#" data-telegram-link target="_blank">ارتباط در تلگرام</a>
+        <a href="contact.html">صفحه‌ی تماس</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© تمامی حقوق برای DigiSite محفوظ است.</span>
+      <div class="footer-socials"><a href="#" data-telegram-link target="_blank" aria-label="تلگرام">✈️</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("order-form").addEventListener("submit", (e)=>{
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    const summary =
+`سفارش سایت جدید از DigiSite:
+نام: ${fd.get("name")}
+شماره تماس: ${fd.get("phone")}
+نوع سایت: ${fd.get("type")}
+زمان موردنظر: ${fd.get("timeline")}
+بودجه تقریبی: ${fd.get("budget") || "ذکر نشده"}
+لینک نمونه: ${fd.get("reference") || "ندارد"}
+امکانات موردنیاز: ${fd.get("features") || "ندارد"}
+توضیحات: ${fd.get("description")}`;
+
+    document.getElementById("form-success").classList.add("show");
+    const tgBtn = document.getElementById("send-telegram");
+    tgBtn.href = `${DIGISITE_CONFIG.TELEGRAM_URL}?text=${encodeURIComponent(summary)}`;
+    tgBtn.style.display = "flex";
+    tgBtn.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+</script>
+</body>
+</html>
