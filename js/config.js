@@ -5,7 +5,7 @@
 
 const DIGISITE_CONFIG = {
   // نام کاربری تلگرام را بدون @ وارد کنید
-  TELEGRAM_USERNAME: "YOUR_USERNAME",
+  TELEGRAM_USERNAME: "alireza_digisite",
 
   // شماره تماس نمایشی
   PHONE_DISPLAY: "0938 303 1035",
